@@ -1,8 +1,8 @@
 <h1>React To-Do</h1>
 <h2>Example of Software</h2>
 
-<img width="600px" heigth="600px" src="./public/image/todo-software">
-<img width="600px" heigth="600px" src="./public/image/api-todo">
+<img width="600px" heigth="600px" src="./image/todo-software.png">
+<img width="600px" heigth="600px" src="./image/api-todo.png">
 
 <p>This application was developed using React** to create the React To-Do.</p>
 
