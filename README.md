@@ -1,3 +1,31 @@
+<h1>React To-Do</h1>
+<h2>Example of Software</h2>
+
+<img width="600px" heigth="600px" src="./image/todo-software">
+<img width="600px" heigth="600px" src="./image/api-todo">
+
+<p>This application was developed using React** to create the React To-Do.</p>
+
+<h2 id="pre-requisites"> Prerequisites</h2>
+
+<p>To run this project, you need to have Vs Code installed on your machine.</p>
+
+<h2 id="how-to-use"> Installing the Project</h2>
+
+<p>First, clone the repository,</p>
+
+<pre><code># Clone the repository
+$ git clone https://github.com/jefersonprimer/react-todo
+
+# Navigate into it
+$ cd react-todo
+$ npm server
+  
+# Open Vs Code
+$ code .
+</code></pre>
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
