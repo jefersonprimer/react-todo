@@ -1,0 +1,119 @@
+.App {
+  width: 40%;
+  margin: 2em auto;
+  background-color: white;
+  border-radius: 5px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1em;
+}
+
+.todo-header {
+  padding: 0.5em;
+  border-bottom: 1px solid gray;
+}
+
+.todo-header h1 {
+  margin: 0;
+}
+
+.form-todo {
+  width: 100%;
+  max-width: 400px; /* Ajuste conforme necessário */
+  margin-bottom: 1em;
+}
+
+.form-todo h2,
+.list-todo h2 {
+  margin-top: 0;
+}
+
+.form-control {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+.form-control label {
+  font-weight: bold;
+  font-size: 0.7em;
+  margin-bottom: 0.4em;
+}
+
+.form-control input {
+  border: 1px solid whitesmoke;
+  border-radius: 2px;
+  background-color: whitesmoke;
+  padding: 0.5em;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: gray;
+  display: block;
+  width: 100%;
+  border: 1px #222;
+  border-radius: 5px;
+  padding: 1em;
+  cursor: pointer;
+}
+
+.list-todo {
+  width: 100%;
+  max-width: 600px; /* Ajuste conforme necessário */
+  margin-top: 1em;
+}
+
+.list-todo h2 {
+  margin-bottom: 0.5em;
+}
+
+.list-todo p {
+  margin: 0;
+}
+
+.todo {
+  width: 100%;
+  border-bottom: 1px solid gray;
+  padding: 1em 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo h3 {
+  margin: 0;
+  flex: 1;
+}
+
+.todo-done {
+  text-decoration: line-through;
+  color: orange;
+}
+
+.todo p {
+  font-style: italic;
+  font-size: 0.7em;
+  margin: 0;
+}
+
+.todo-actions {
+  display: flex;
+  align-items: center;
+}
+
+.todo svg {
+  font-size: 1.5em;
+  cursor: pointer;
+  margin-right: 1em;
+  transition: 0.5s;
+}
+
+.todo svg:hover {
+  color: orange;
+}
